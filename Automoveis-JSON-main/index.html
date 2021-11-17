@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/css.css" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/Json.js"></script>
+    <script src="js/Search.js"></script>
+    
+    <title>Projeto Oficina</title>
+</head>
+<body>
+    
+    <header>
+
+        <div >
+            <h1>Busca Automoveis</h1>
+        </div>
+
+        <form action="#" method="post">
+            <input type="search" name="search" id="search" onkeyup="getSearch()" placeholder="Marca ou Modelo" required>
+            
+        </form>
+
+    </header>
+      
+      
+    <table border="1">
+        <thead>
+            <tr>
+                <th scope="col">Marca</th>
+                <th scope="col">Carro</th>
+                <th scope="col">Camber Dianteiro Mínimo</th>
+                <th scope="col">Camber Dianteiro Máximo</th>
+                <th scope="col">Caster Dianteiro Mínimo</th>
+                <th scope="col">Caster Dianteiro Máximo</th>
+                <th scope="col">Convergência Dianteira Mínimo</th>
+                <th scope="col">Convergência Dianteira Máximo</th>
+                <th scope="col">Camber Traseiro Mínimo</th>
+                <th scope="col">Camber Traseiro Máximo</th>
+                <th scope="col">Convergência Dianteira Mínimo</th>
+                <th scope="col">Convergência Dianteira Máximo</th>
+            </tr>
+        </thead>
+
+        <tbody id="TableData">
+
+        </tbody>
+    </table>
+</body>
+</html>
